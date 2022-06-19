@@ -1,0 +1,111 @@
+*{
+	margin: 0;
+    padding: 0;
+	box-sizing:border-box;
+}
+
+p {
+	color: #848789;
+	line-height: 30px;
+}
+
+body {
+	height: 100vh;
+}
+.navbar-nav{
+    color: #111111;
+}
+.btn{
+    border-radius: 10px;
+    background-color: #FFB80E;
+}
+.srchbar{
+    top: 20px;
+    left:25px;
+    position: relative;
+    border: 1;
+}
+.span{
+    color: #FF970B;
+}
+.headline2{
+    width: 537.26px;
+    height: 683.59px;
+    position: relative;
+    z-index: 10;
+    background-image: url('images/Ellipse 18');
+}
+.img2{
+
+    position: absolute;
+    left: 400px;
+    z-index: 10;
+
+}
+.img3{
+
+    position: absolute;
+    left: 800px;
+    top: 600px;
+    z-index: 10;
+
+}
+.img4{
+    position: absolute;
+    z-index: 9;
+    left: 537.26px;
+    top: 65px;
+}
+.img5{
+    position: absolute;
+    z-index: 8;
+    left: 537.26px;
+    top: 20px;
+}
+
+.icn2{
+    right: 20px;
+}
+
+#navbarNav ul li{
+    list-style: none;
+    display: inline-block;
+}
+#navbarNav ul li a{
+    font-size: 17px;
+    color: #111111;
+    text-decoration: none;
+    transition: 0.3s all;
+
+}
+#navbarNav ul li a:hover{
+    color: #FF970B;
+}
+.nav-link::after{
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color: #FF970B;
+    transition:width .3;
+
+}
+.nav-link:hover::after{
+    width: 100%;
+    transition:width .3;
+
+}
+
+.pd{
+    /* popular dishes */
+
+
+font-family: 'Quicksand';
+font-style: normal;
+
+/* identical to box height, or 121% */
+
+text-transform: capitalize;
+
+color: #111111;
+}
